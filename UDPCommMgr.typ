@@ -74,6 +74,7 @@ TYPE
 		ReceiveFlags : UINT;
 		pReceiveData : UDINT;
 		MaxReceiveLength : UDINT;
+		DisableReceiving : BOOL;
 	END_STRUCT;
 	UDPCommMgr_IN_CMD_typ : 	STRUCT 
 		Enable : BOOL;
