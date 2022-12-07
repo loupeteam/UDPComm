@@ -69,7 +69,7 @@ unsigned short UDPCommReceive(struct UDPCommMgr_typ* t)
 			t->Internal.FUB.Receive.pIpAddr = (UDINT)&(t->Internal.ReceivedFromIPAddress);
 				
 			// Check for !Enable
-			if (!t->IN.CMD.Enable) {
+			if (!t->IN.CMD.Enable || t->IN.PAR.DisableReceiving) {
 				t->Internal.FUB.Receive.enable = 0;
 			}
 		
