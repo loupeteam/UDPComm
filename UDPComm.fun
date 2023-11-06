@@ -1,13 +1,11 @@
-(********************************************************************
- * COPYRIGHT --  
- ********************************************************************
- * Library: UDPComm
+(*
  * File: UDPComm.fun
- * Author: davidblackburn
- * Created: January 28, 2014
- ********************************************************************
- * Functions and function blocks of library UDPComm
- ********************************************************************)
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of UDPComm, licensed under the MIT License.
+ *
+ *)
 
 FUNCTION UDPCommFn_Cyclic : UINT (*Cyclic function for managing UDP communications*) (*$GROUP=User*)
 	VAR_IN_OUT

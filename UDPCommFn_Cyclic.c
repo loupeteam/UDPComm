@@ -1,13 +1,11 @@
-/********************************************************************
- * COPYRIGHT --  
- ********************************************************************
- * Library: UDPComm
+/*
  * File: UDPCommFn_Cyclic.c
- * Author: davidblackburn
- * Created: January 28, 2014
- ********************************************************************
- * Implementation of library UDPComm
- ********************************************************************/
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of UDPComm, licensed under the MIT License.
+ * 
+ */
 
 #include <bur/plctypes.h>
 #ifdef __cplusplus

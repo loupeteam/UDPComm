@@ -1,13 +1,11 @@
-/********************************************************************
- * COPYRIGHT --  
- ********************************************************************
- * Library: UDPComm
+/*
  * File: UDPCommReceive.c
- * Author: dfblackburn
- * Created: March 18, 2016
- ********************************************************************
- * Implementation of library UDPComm
- ********************************************************************/
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of UDPComm, licensed under the MIT License.
+ * 
+ */
 
 #include <bur/plctypes.h>
 #ifdef __cplusplus
