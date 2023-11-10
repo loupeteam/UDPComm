@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="0.04.0" SubType="ANSIC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">UDPComm.typ</File>
+    <File Description="Exported constants">UDPComm.var</File>
+    <File Description="Exported functions and function blocks">UDPComm.fun</File>
+    <File Description="Exported data types">UDPCommMgr.typ</File>
+    <File Description="Cyclic function for managing UDP communications">UDPCommFn_Cyclic.c</File>
+    <File Description="Open and close UDP communication on the local interface">UDPCommManage.c</File>
+    <File Description="Receive UDP datagrams">UDPCommReceive.c</File>
+    <File Description="Send UDP datagrams">UDPCommSend.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsUDP" />
+  </Dependencies>
+</Library>

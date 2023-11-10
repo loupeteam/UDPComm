@@ -1,0 +1,13 @@
+(*
+ * File: UDPComm.var
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of UDPComm, licensed under the MIT License.
+ *
+ *)
+VAR CONSTANT
+	UDPCOMM_MAI_DATA : UINT := 255;
+	UDPCOMM_STRLEN_IPADDRESS : USINT := 16;
+	UDPCOMM_STRLEN_ERRORSTRING : USINT := 80;
+END_VAR
